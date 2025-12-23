@@ -1,0 +1,7 @@
+users:
+  - username: "invalid@example.com"
+    password: "WrongPassword"
+    description: "Invalid password"
+  - username: "nonexistent@example.com"
+    password: "Password123"
+    description: "User does not exist"

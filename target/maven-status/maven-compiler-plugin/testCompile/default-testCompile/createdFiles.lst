@@ -1,0 +1,15 @@
+com\carehires\context\TestContext$Keys.class
+com\carehires\hooks\UiHooks.class
+com\carehires\hooks\ApiHooks.class
+com\carehires\hooks\TestHooks.class
+com\carehires\runners\UiTestRunner.class
+com\carehires\listeners\AllureListener.class
+com\carehires\runners\TestRunner.class
+com\carehires\context\TestContext.class
+com\carehires\runners\RegressionRunner.class
+com\carehires\steps\ui\LoginSteps.class
+com\carehires\runners\ApiTestRunner.class
+com\carehires\context\ScenarioContext.class
+com\carehires\listeners\ExtentReportListener.class
+com\carehires\steps\api\UserApiSteps.class
+com\carehires\listeners\TestListener.class

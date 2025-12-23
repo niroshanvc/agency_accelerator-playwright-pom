@@ -1,0 +1,37 @@
+version: 2.1
+
+executors:
+  java-executor:
+    docker:
+      - image: cimg/openjdk:21.0.0
+    working_directory: ~/repo
+
+jobs:
+  build-and-test:
+    executor: java-executor
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "pom.xml" }}
+            - v1-dependencies-
+      - run:
+          name: Install Playwright Dependencies
+          command: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install-deps"
+      - run:
+          name: Run Tests
+          command: mvn test
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: v1-dependencies-{{ checksum "pom.xml" }}
+      - store_test_results:
+          path: target/surefire-reports
+      - store_artifacts:
+          path: target/allure-results
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - build-and-test

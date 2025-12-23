@@ -1,0 +1,6 @@
+common:
+  defaultTimeout: 30000
+  retryCount: 1
+urls:
+  login: "/login"
+  dashboard: "/dashboard"
