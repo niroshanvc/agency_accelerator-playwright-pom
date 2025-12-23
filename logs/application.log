@@ -510,3 +510,176 @@ java.lang.IllegalStateException: BrowserContext is not initialized.
 2025-12-23 15:40:13.579 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
 2025-12-23 15:40:13.580 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
 2025-12-23 15:40:13.658 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Completed ===
+2025-12-23 16:00:55.750 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Started ===
+2025-12-23 16:00:56.033 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Login with invalid credentials ===
+2025-12-23 16:00:56.033 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Create a new user ===
+2025-12-23 16:00:56.034 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Tags: [@UI, @Smoke]
+2025-12-23 16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Tags: [@API]
+2025-12-23 16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Scenario set: Create a new user
+2025-12-23 16:00:56.035 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Scenario set: Login with invalid credentials
+2025-12-23 16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/api/user-management.feature
+2025-12-23 16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Line: 4
+2025-12-23 16:00:56.041 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Initializing Playwright driver for thread: 35
+2025-12-23 16:00:56.066 [ForkJoinPool-1-worker-2] ERROR com.carehires.factories.ApiClientFactory - Failed to create API client instance: UserApiClient
+java.lang.IllegalStateException: APIRequestContext is not initialized. Call initializeApiContext() first.
+	at com.carehires.managers.ApiContextManager.getRequestContext(ApiContextManager.java:54) ~[classes/:?]
+	at com.carehires.factories.ApiClientFactory.createInstance(ApiClientFactory.java:16) ~[classes/:?]
+	at com.carehires.steps.api.UserApiSteps.<init>(UserApiSteps.java:18) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678) ~[picocontainer-2.15.jar:?]
+	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64) ~[cucumber-picocontainer-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:146) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
+2025-12-23 16:00:56.169 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Status: FAILED ===
+2025-12-23 16:00:56.170 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Create a new user ===
+2025-12-23 16:00:56.170 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 36
+2025-12-23 16:00:56.170 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
+2025-12-23 16:01:04.354 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 35
+2025-12-23 16:01:04.357 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Launching CHROMIUM browser in headless mode
+2025-12-23 16:01:12.072 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Browser launched successfully: CHROMIUM
+2025-12-23 16:01:12.073 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance set for thread: 35
+2025-12-23 16:01:12.073 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new browser context
+2025-12-23 16:01:12.199 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Tracing enabled for browser context
+2025-12-23 16:01:12.199 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance set for thread: 35
+2025-12-23 16:01:12.200 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new page
+2025-12-23 16:01:13.045 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance set for thread: 35
+2025-12-23 16:01:13.046 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Playwright driver initialized successfully
+2025-12-23 16:01:13.047 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/ui/login.feature
+2025-12-23 16:01:13.047 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Line: 4
+2025-12-23 16:01:26.444 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Performing login with username: invalid_user
+2025-12-23 16:01:26.446 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering username: invalid_user
+2025-12-23 16:01:26.446 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'invalid_user' in element: #username
+2025-12-23 16:01:26.449 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #username
+2025-12-23 16:01:26.581 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #username
+2025-12-23 16:01:26.700 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering password
+2025-12-23 16:01:26.701 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'wrong_pass' in element: #password
+2025-12-23 16:01:26.702 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #password
+2025-12-23 16:01:26.765 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #password
+2025-12-23 16:01:26.820 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking login button
+2025-12-23 16:01:26.820 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking element: button[type='submit']
+2025-12-23 16:01:26.820 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: button[type='submit']
+2025-12-23 16:01:26.862 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: button[type='submit']
+2025-12-23 16:01:28.214 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+2025-12-23 16:01:28.215 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 35
+2025-12-23 16:01:28.215 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 35
+2025-12-23 16:01:28.226 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance removed for thread: 35
+2025-12-23 16:01:28.319 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance removed for thread: 35
+2025-12-23 16:01:28.515 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance removed for thread: 35
+2025-12-23 16:01:28.542 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 35
+2025-12-23 16:01:28.543 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 35
+2025-12-23 16:01:28.543 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Login with invalid credentials ===
+2025-12-23 16:01:28.543 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 35
+2025-12-23 16:01:28.544 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
+2025-12-23 16:01:28.548 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Completed ===
+2025-12-23 16:02:17.005 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Started ===
+2025-12-23 16:02:17.868 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Login with invalid credentials ===
+2025-12-23 16:02:17.871 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Tags: [@UI, @Smoke]
+2025-12-23 16:02:17.868 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Create a new user ===
+2025-12-23 16:02:17.873 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Scenario set: Login with invalid credentials
+2025-12-23 16:02:17.873 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Tags: [@API]
+2025-12-23 16:02:17.874 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Scenario set: Create a new user
+2025-12-23 16:02:17.880 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ApiContextManager - Initializing API context for thread: 36
+2025-12-23 16:02:17.882 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Initializing Playwright driver for thread: 35
+2025-12-23 16:02:36.745 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 36
+2025-12-23 16:02:36.769 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 35
+2025-12-23 16:02:36.774 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Launching CHROMIUM browser in headless mode
+2025-12-23 16:02:36.805 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - APIRequestContext instance set for thread: 36
+2025-12-23 16:02:36.805 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ApiContextManager - API context initialized successfully
+2025-12-23 16:02:36.807 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/api/user-management.feature
+2025-12-23 16:02:36.813 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Line: 4
+2025-12-23 16:02:36.851 [ForkJoinPool-1-worker-2] INFO  com.carehires.factories.ApiClientFactory - Created API client instance: UserApiClient
+2025-12-23 16:02:36.868 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+2025-12-23 16:02:36.871 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 36
+2025-12-23 16:02:36.873 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 36
+2025-12-23 16:02:36.898 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - APIRequestContext instance removed for thread: 36
+2025-12-23 16:02:36.975 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 36
+2025-12-23 16:02:36.975 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 36
+2025-12-23 16:02:36.979 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Create a new user ===
+2025-12-23 16:02:36.983 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 36
+2025-12-23 16:02:36.984 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
+2025-12-23 16:02:37.252 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Browser launched successfully: CHROMIUM
+2025-12-23 16:02:37.254 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance set for thread: 35
+2025-12-23 16:02:37.256 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new browser context
+2025-12-23 16:02:37.423 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Tracing enabled for browser context
+2025-12-23 16:02:37.424 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance set for thread: 35
+2025-12-23 16:02:37.426 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new page
+2025-12-23 16:02:37.848 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance set for thread: 35
+2025-12-23 16:02:37.848 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Playwright driver initialized successfully
+2025-12-23 16:02:37.849 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/ui/login.feature
+2025-12-23 16:02:37.850 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Line: 4
+2025-12-23 16:02:51.737 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Performing login with username: invalid_user
+2025-12-23 16:02:51.738 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering username: invalid_user
+2025-12-23 16:02:51.738 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'invalid_user' in element: #username
+2025-12-23 16:02:51.741 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #username
+2025-12-23 16:02:51.906 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #username
+2025-12-23 16:02:52.002 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering password
+2025-12-23 16:02:52.002 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'wrong_pass' in element: #password
+2025-12-23 16:02:52.004 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #password
+2025-12-23 16:02:52.042 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #password
+2025-12-23 16:02:52.090 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking login button
+2025-12-23 16:02:52.091 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking element: button[type='submit']
+2025-12-23 16:02:52.091 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: button[type='submit']
+2025-12-23 16:02:52.123 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: button[type='submit']
+2025-12-23 16:02:53.572 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+2025-12-23 16:02:53.575 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 35
+2025-12-23 16:02:53.576 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 35
+2025-12-23 16:02:53.599 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance removed for thread: 35
+2025-12-23 16:02:53.788 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance removed for thread: 35
+2025-12-23 16:02:54.048 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance removed for thread: 35
+2025-12-23 16:02:54.094 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 35
+2025-12-23 16:02:54.095 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 35
+2025-12-23 16:02:54.097 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Login with invalid credentials ===
+2025-12-23 16:02:54.097 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 35
+2025-12-23 16:02:54.098 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
+2025-12-23 16:02:54.108 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Completed ===

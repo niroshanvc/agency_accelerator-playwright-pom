@@ -13,11 +13,11 @@ import java.util.Map;
 public class TestContext {
     private static final Logger logger = LogManager.getLogger(TestContext.class);
     private static final ThreadLocal<TestContext> instance = new ThreadLocal<>();
-    
+
     private Scenario scenario;
     private final Map<String, Object> contextData;
 
-    private TestContext() {
+    public TestContext() {
         this.contextData = new HashMap<>();
     }
 

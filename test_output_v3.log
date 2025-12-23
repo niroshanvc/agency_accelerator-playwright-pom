@@ -1,0 +1,274 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.carehires:agency-accelerator-automation >-------------
+[INFO] Building Agency Accelerator Test Automation Framework 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ agency-accelerator-automation ---
+[INFO] Copying 10 resources from src\main\resources to target\classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ agency-accelerator-automation ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ agency-accelerator-automation ---
+[INFO] Copying 6 resources from src\test\resources to target\test-classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ agency-accelerator-automation ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ agency-accelerator-automation ---
+[INFO] Surefire report directory: C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.carehires.runners.TestRunner
+16:00:55.750 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Started ===
+16:00:56.033 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Login with invalid credentials ===
+16:00:56.033 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Create a new user ===
+16:00:56.034 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Tags: [@UI, @Smoke]
+16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Tags: [@API]
+16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Scenario set: Create a new user
+16:00:56.035 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Scenario set: Login with invalid credentials
+16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/api/user-management.feature
+16:00:56.035 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Line: 4
+16:00:56.041 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Initializing Playwright driver for thread: 35
+16:00:56.066 [ForkJoinPool-1-worker-2] ERROR com.carehires.factories.ApiClientFactory - Failed to create API client instance: UserApiClient
+java.lang.IllegalStateException: APIRequestContext is not initialized. Call initializeApiContext() first.
+	at com.carehires.managers.ApiContextManager.getRequestContext(ApiContextManager.java:54) ~[classes/:?]
+	at com.carehires.factories.ApiClientFactory.createInstance(ApiClientFactory.java:16) ~[classes/:?]
+	at com.carehires.steps.api.UserApiSteps.<init>(UserApiSteps.java:18) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647) ~[picocontainer-2.15.jar:?]
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678) ~[picocontainer-2.15.jar:?]
+	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64) ~[cucumber-picocontainer-7.18.1.jar:7.18.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:146) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) [junit-platform-engine-1.10.3.jar:1.10.3]
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
+16:00:56.169 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Status: FAILED ===
+16:00:56.170 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Create a new user ===
+16:00:56.170 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 36
+16:00:56.170 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
+16:01:04.354 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 35
+16:01:04.357 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Launching CHROMIUM browser in headless mode
+16:01:12.072 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Browser launched successfully: CHROMIUM
+16:01:12.073 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance set for thread: 35
+16:01:12.073 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new browser context
+16:01:12.199 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Tracing enabled for browser context
+16:01:12.199 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance set for thread: 35
+16:01:12.200 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new page
+16:01:13.045 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance set for thread: 35
+16:01:13.046 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Playwright driver initialized successfully
+16:01:13.047 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/ui/login.feature
+16:01:13.047 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Line: 4
+16:01:26.444 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Performing login with username: invalid_user
+16:01:26.446 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering username: invalid_user
+16:01:26.446 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'invalid_user' in element: #username
+16:01:26.449 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #username
+16:01:26.581 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #username
+16:01:26.700 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering password
+16:01:26.701 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'wrong_pass' in element: #password
+16:01:26.702 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #password
+16:01:26.765 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #password
+16:01:26.820 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking login button
+16:01:26.820 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking element: button[type='submit']
+16:01:26.820 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: button[type='submit']
+16:01:26.862 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: button[type='submit']
+16:01:28.214 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+16:01:28.215 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 35
+16:01:28.215 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 35
+16:01:28.226 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance removed for thread: 35
+16:01:28.319 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance removed for thread: 35
+16:01:28.515 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance removed for thread: 35
+16:01:28.542 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 35
+16:01:28.543 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 35
+16:01:28.543 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Login with invalid credentials ===
+16:01:28.543 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 35
+16:01:28.544 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
+16:01:28.548 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Completed ===
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 33.12 s <<< FAILURE! -- in com.carehires.runners.TestRunner
+[ERROR] User Management API.Create a new user -- Time elapsed: 0.439 s <<< ERROR!
+java.lang.RuntimeException: Failed to create API client: com.carehires.api.clients.UserApiClient
+	at com.carehires.factories.ApiClientFactory.createInstance(ApiClientFactory.java:23)
+	at com.carehires.steps.api.UserApiSteps.<init>(UserApiSteps.java:18)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.lang.IllegalStateException: APIRequestContext is not initialized. Call initializeApiContext() first.
+	at com.carehires.managers.ApiContextManager.getRequestContext(ApiContextManager.java:54)
+	at com.carehires.factories.ApiClientFactory.createInstance(ApiClientFactory.java:16)
+	... 37 more
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   Failed to create API client: com.carehires.api.clients.UserApiClient
+[INFO] 
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.809 s
+[INFO] Finished at: 2025-12-23T16:01:29+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project agency-accelerator-automation: 
+[ERROR] 
+[ERROR] Please refer to C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project agency-accelerator-automation: 
+
+Please refer to C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoFailureException: 
+
+Please refer to C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.plugin.surefire.SurefireHelper.throwException (SurefireHelper.java:247)
+    at org.apache.maven.plugin.surefire.SurefireHelper.reportExecution (SurefireHelper.java:159)
+    at org.apache.maven.plugin.surefire.SurefirePlugin.handleSummary (SurefirePlugin.java:542)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked (AbstractSurefireMojo.java:1102)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute (AbstractSurefireMojo.java:910)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

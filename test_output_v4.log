@@ -1,0 +1,103 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.carehires:agency-accelerator-automation >-------------
+[INFO] Building Agency Accelerator Test Automation Framework 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ agency-accelerator-automation ---
+[INFO] Copying 10 resources from src\main\resources to target\classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ agency-accelerator-automation ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ agency-accelerator-automation ---
+[INFO] Copying 6 resources from src\test\resources to target\test-classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ agency-accelerator-automation ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ agency-accelerator-automation ---
+[INFO] Surefire report directory: C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.carehires.runners.TestRunner
+16:02:17.005 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Started ===
+16:02:17.868 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Login with invalid credentials ===
+16:02:17.868 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Create a new user ===
+16:02:17.871 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Tags: [@UI, @Smoke]
+16:02:17.873 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Scenario set: Login with invalid credentials
+16:02:17.873 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Tags: [@API]
+16:02:17.874 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Scenario set: Create a new user
+16:02:17.880 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ApiContextManager - Initializing API context for thread: 36
+16:02:17.882 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Initializing Playwright driver for thread: 35
+16:02:36.745 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 36
+16:02:36.769 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 35
+16:02:36.774 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Launching CHROMIUM browser in headless mode
+16:02:36.805 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - APIRequestContext instance set for thread: 36
+16:02:36.805 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ApiContextManager - API context initialized successfully
+16:02:36.807 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/api/user-management.feature
+16:02:36.813 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Line: 4
+16:02:36.851 [ForkJoinPool-1-worker-2] INFO  com.carehires.factories.ApiClientFactory - Created API client instance: UserApiClient
+16:02:36.868 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+16:02:36.871 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 36
+16:02:36.873 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 36
+16:02:36.898 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - APIRequestContext instance removed for thread: 36
+16:02:36.975 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 36
+16:02:36.975 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 36
+16:02:36.979 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Create a new user ===
+16:02:36.983 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 36
+16:02:36.984 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
+16:02:37.252 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Browser launched successfully: CHROMIUM
+16:02:37.254 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance set for thread: 35
+16:02:37.256 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new browser context
+16:02:37.423 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Tracing enabled for browser context
+16:02:37.424 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance set for thread: 35
+16:02:37.426 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new page
+16:02:37.848 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance set for thread: 35
+16:02:37.848 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Playwright driver initialized successfully
+16:02:37.849 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/ui/login.feature
+16:02:37.850 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Line: 4
+16:02:51.737 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Performing login with username: invalid_user
+16:02:51.738 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering username: invalid_user
+16:02:51.738 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'invalid_user' in element: #username
+16:02:51.741 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #username
+16:02:51.906 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #username
+16:02:52.002 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering password
+16:02:52.002 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'wrong_pass' in element: #password
+16:02:52.004 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #password
+16:02:52.042 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #password
+16:02:52.090 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking login button
+16:02:52.091 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking element: button[type='submit']
+16:02:52.091 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: button[type='submit']
+16:02:52.123 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: button[type='submit']
+16:02:53.572 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+16:02:53.575 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 35
+16:02:53.576 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 35
+16:02:53.599 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance removed for thread: 35
+16:02:53.788 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance removed for thread: 35
+16:02:54.048 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance removed for thread: 35
+16:02:54.094 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 35
+16:02:54.095 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 35
+16:02:54.097 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Login with invalid credentials ===
+16:02:54.097 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 35
+16:02:54.098 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
+16:02:54.108 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Completed ===
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.74 s -- in com.carehires.runners.TestRunner
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  56.157 s
+[INFO] Finished at: 2025-12-23T16:02:55+05:30
+[INFO] ------------------------------------------------------------------------

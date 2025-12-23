@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.carehires.runners.TestRunner" time="1.732" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.carehires.runners.TestRunner" time="37.744" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Niroshan - CareHires\AppData\Local\Temp\surefire12681090826077803912\surefirebooter-20251223154004093_3.jar C:\Users\Niroshan - CareHires\AppData\Local\Temp\surefire12681090826077803912 2025-12-23T15-40-03_349-jvmRun1 surefire-20251223154004093_1tmp surefire_0-20251223154004093_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Niroshan - CareHires\AppData\Local\Temp\surefire14789394575827124910\surefirebooter-20251223160207816_3.jar C:\Users\Niroshan - CareHires\AppData\Local\Temp\surefire14789394575827124910 2025-12-23T16-02-06_991-jvmRun1 surefire-20251223160207816_1tmp surefire_0-20251223160207816_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TestRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\test-classes;C:\Users\Niroshan - CareHires\.gemini\antigravity\agency_accelerator-playwright-pom\target\classes;C:\Users\Niroshan - CareHires\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-picocontainer\7.18.1\cucumber-picocontainer-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.3\junit-vintage-engine-5.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-suite\1.10.3\junit-platform-suite-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.3\junit-platform-suite-api-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.3\junit-platform-suite-engine-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.3\junit-platform-suite-commons-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.1\cucumber-junit-platform-engine-7.18.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.23.1\log4j-slf4j2-impl-2.23.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Niroshan - CareHires\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Niroshan - CareHires\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\qameta\allure\allure-junit5\2.29.0\allure-junit5-2.29.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\qameta\allure\allure-junit-platform\2.29.0\allure-junit-platform-2.29.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\Niroshan - CareHires\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Niroshan - CareHires\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Niroshan - CareHires\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Niroshan - CareHires\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Niroshan - CareHires\AppData\Local\Temp\surefire12681090826077803912\surefirebooter-20251223154004093_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Niroshan - CareHires\AppData\Local\Temp\surefire14789394575827124910\surefirebooter-20251223160207816_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -63,366 +63,70 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="Create a new user" classname="User Management API" time="0.937">
-    <error message="Either the specified parameters do not match any of the following constructors: [private com.carehires.context.TestContext()]; OR the constructors were not accessible for &apos;com.carehires.context.TestContext&apos;" type="org.picocontainer.PicoCompositionException"><![CDATA[org.picocontainer.PicoCompositionException: Either the specified parameters do not match any of the following constructors: [private com.carehires.context.TestContext()]; OR the constructors were not accessible for 'com.carehires.context.TestContext'
-	at org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor(ConstructorInjector.java:200)
-	at org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor(ConstructorInjector.java:110)
-	at org.picocontainer.injectors.ConstructorInjector.access$100(ConstructorInjector.java:51)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:331)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-]]></error>
-    <system-out><![CDATA[15:40:12.642 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Started ===
-15:40:13.454 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Login with invalid credentials ===
-15:40:13.454 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Create a new user ===
-15:40:13.455 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Tags: [@UI, @Smoke]
-15:40:13.456 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Scenario set: Login with invalid credentials
-15:40:13.456 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Tags: [@API]
-15:40:13.456 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/ui/login.feature
-15:40:13.456 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Scenario set: Create a new user
-15:40:13.456 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Line: 4
-15:40:13.457 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/api/user-management.feature
-15:40:13.458 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Line: 4
-15:40:13.506 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Status: FAILED ===
-15:40:13.506 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Status: FAILED ===
-15:40:13.514 [ForkJoinPool-1-worker-2] WARN  com.carehires.hooks.TestHooks - Failed to capture screenshot
-java.lang.IllegalStateException: Page is not initialized. Call initializeDriver() first.
-	at com.carehires.managers.DriverManager.getPage(DriverManager.java:34) ~[classes/:?]
-	at com.carehires.hooks.TestHooks.after(TestHooks.java:44) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:90) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:146) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
-15:40:13.514 [ForkJoinPool-1-worker-1] WARN  com.carehires.hooks.TestHooks - Failed to capture screenshot
-java.lang.IllegalStateException: Page is not initialized. Call initializeDriver() first.
-	at com.carehires.managers.DriverManager.getPage(DriverManager.java:34) ~[classes/:?]
-	at com.carehires.hooks.TestHooks.after(TestHooks.java:44) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:90) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:146) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1532) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2267) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:495) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:662) ~[?:?]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.joinConcurrentTasksInReverseOrderToEnableWorkStealing(ForkJoinPoolHierarchicalTestExecutorService.java:179) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:153) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
-15:40:13.557 [ForkJoinPool-1-worker-2] WARN  com.carehires.hooks.TestHooks - Failed to save trace
-java.lang.IllegalStateException: BrowserContext is not initialized.
-	at com.carehires.managers.DriverManager.getContext(DriverManager.java:42) ~[classes/:?]
-	at com.carehires.hooks.TestHooks.after(TestHooks.java:56) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:90) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:146) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
-15:40:13.563 [ForkJoinPool-1-worker-1] WARN  com.carehires.hooks.TestHooks - Failed to save trace
-java.lang.IllegalStateException: BrowserContext is not initialized.
-	at com.carehires.managers.DriverManager.getContext(DriverManager.java:42) ~[classes/:?]
-	at com.carehires.hooks.TestHooks.after(TestHooks.java:56) ~[test-classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:90) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.1.jar:7.18.1]
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90) ~[cucumber-junit-platform-engine-7.18.1.jar:?]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:146) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1532) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2267) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:495) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:662) ~[?:?]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.joinConcurrentTasksInReverseOrderToEnableWorkStealing(ForkJoinPoolHierarchicalTestExecutorService.java:179) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:153) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:202) [junit-platform-engine-1.10.3.jar:1.10.3]
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
-15:40:13.573 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Create a new user ===
-15:40:13.577 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Login with invalid credentials ===
-15:40:13.577 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 36
-15:40:13.578 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 35
-15:40:13.579 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
-15:40:13.580 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
+  <testcase name="Create a new user" classname="User Management API" time="19.961">
+    <system-out><![CDATA[16:02:17.005 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Test Suite Execution Started ===
+16:02:17.868 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Login with invalid credentials ===
+16:02:17.868 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Starting Scenario: Create a new user ===
+16:02:17.871 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Tags: [@UI, @Smoke]
+16:02:17.873 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Scenario set: Login with invalid credentials
+16:02:17.873 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Tags: [@API]
+16:02:17.874 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Scenario set: Create a new user
+16:02:17.880 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ApiContextManager - Initializing API context for thread: 36
+16:02:17.882 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Initializing Playwright driver for thread: 35
+16:02:36.745 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 36
+16:02:36.769 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance set for thread: 35
+16:02:36.774 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Launching CHROMIUM browser in headless mode
+16:02:36.805 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - APIRequestContext instance set for thread: 36
+16:02:36.805 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ApiContextManager - API context initialized successfully
+16:02:36.807 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/api/user-management.feature
+16:02:36.813 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - Line: 4
+16:02:36.851 [ForkJoinPool-1-worker-2] INFO  com.carehires.factories.ApiClientFactory - Created API client instance: UserApiClient
+16:02:36.868 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+16:02:36.871 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 36
+16:02:36.873 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 36
+16:02:36.898 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - APIRequestContext instance removed for thread: 36
+16:02:36.975 [ForkJoinPool-1-worker-2] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 36
+16:02:36.975 [ForkJoinPool-1-worker-2] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 36
+16:02:36.979 [ForkJoinPool-1-worker-2] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Create a new user ===
+16:02:36.983 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 36
+16:02:36.984 [ForkJoinPool-1-worker-2] INFO  com.carehires.context.TestContext - Clearing all context data
 ]]></system-out>
   </testcase>
-  <testcase name="Login with invalid credentials" classname="App Login" time="0.937">
-    <error message="Either the specified parameters do not match any of the following constructors: [private com.carehires.context.TestContext()]; OR the constructors were not accessible for &apos;com.carehires.context.TestContext&apos;" type="org.picocontainer.PicoCompositionException"><![CDATA[org.picocontainer.PicoCompositionException: Either the specified parameters do not match any of the following constructors: [private com.carehires.context.TestContext()]; OR the constructors were not accessible for 'com.carehires.context.TestContext'
-	at org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor(ConstructorInjector.java:200)
-	at org.picocontainer.injectors.ConstructorInjector.getGreediestSatisfiableConstructor(ConstructorInjector.java:110)
-	at org.picocontainer.injectors.ConstructorInjector.access$100(ConstructorInjector.java:51)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:331)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
-	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
-	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
-	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
-	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
-	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
-	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
-	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
-	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
-	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
-	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
-	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
-	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
-	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1532)
-	at java.base/java.util.concurrent.ForkJoinPool.helpJoin(ForkJoinPool.java:2267)
-	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:495)
-	at java.base/java.util.concurrent.ForkJoinTask.join(ForkJoinTask.java:662)
-	at java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
-]]></error>
+  <testcase name="Login with invalid credentials" classname="App Login" time="37.066">
+    <system-out><![CDATA[16:02:37.252 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Browser launched successfully: CHROMIUM
+16:02:37.254 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance set for thread: 35
+16:02:37.256 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new browser context
+16:02:37.423 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Tracing enabled for browser context
+16:02:37.424 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance set for thread: 35
+16:02:37.426 [ForkJoinPool-1-worker-1] INFO  com.carehires.factories.BrowserFactory - Creating new page
+16:02:37.848 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance set for thread: 35
+16:02:37.848 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Playwright driver initialized successfully
+16:02:37.849 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Feature: classpath:features/ui/login.feature
+16:02:37.850 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - Line: 4
+16:02:51.737 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Performing login with username: invalid_user
+16:02:51.738 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering username: invalid_user
+16:02:51.738 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'invalid_user' in element: #username
+16:02:51.741 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #username
+16:02:51.906 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #username
+16:02:52.002 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Entering password
+16:02:52.002 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Filling text 'wrong_pass' in element: #password
+16:02:52.004 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: #password
+16:02:52.042 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: #password
+16:02:52.090 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking login button
+16:02:52.091 [ForkJoinPool-1-worker-1] INFO  com.carehires.pages.login.LoginPage - Clicking element: button[type='submit']
+16:02:52.091 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Waiting for element to be visible: button[type='submit']
+16:02:52.123 [ForkJoinPool-1-worker-1] DEBUG com.carehires.utils.WaitUtils - Element is visible: button[type='submit']
+16:02:53.572 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Status: PASSED ===
+16:02:53.575 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.DriverManager - Quitting Playwright driver for thread: 35
+16:02:53.576 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - Cleaning up all ThreadLocal instances for thread: 35
+16:02:53.599 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Page instance removed for thread: 35
+16:02:53.788 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - BrowserContext instance removed for thread: 35
+16:02:54.048 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Browser instance removed for thread: 35
+16:02:54.094 [ForkJoinPool-1-worker-1] DEBUG com.carehires.managers.ThreadLocalManager - Playwright instance removed for thread: 35
+16:02:54.095 [ForkJoinPool-1-worker-1] INFO  com.carehires.managers.ThreadLocalManager - ThreadLocal cleanup completed for thread: 35
+16:02:54.097 [ForkJoinPool-1-worker-1] INFO  com.carehires.hooks.TestHooks - === Scenario Completed: Login with invalid credentials ===
+16:02:54.097 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Resetting TestContext for thread: 35
+16:02:54.098 [ForkJoinPool-1-worker-1] INFO  com.carehires.context.TestContext - Clearing all context data
+]]></system-out>
   </testcase>
 </testsuite>
